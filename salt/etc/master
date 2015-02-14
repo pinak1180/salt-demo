@@ -1,0 +1,9 @@
+# Look for formulas, states, and pillars in local directories
+# before checking within associated git remotes
+fileserver_backend:
+  - roots
+  - git
+
+gitfs_remotes:
+  - https://github.com/saltstack-formulas/mysql-formula.git
+  - https://github.com/saltstack-formulas/redis-formula.git
